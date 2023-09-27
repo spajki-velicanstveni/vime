@@ -174,7 +174,7 @@ export class Captions {
           inactive: !this.isTextTrackVisible,
         }}
       >
-        <span class="cue">{this.cue}</span>
+        <span class="cue" innerHTML={this.cue}></span>
       </div>
     );
   }
